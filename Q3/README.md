@@ -35,7 +35,7 @@ Run:
 To initiate an CacheNode(cache server): 
 
 <pre name="code" class="bash">
-java CacheNode <port_number>
+java CacheNode &lt; port_number &gt;
 </pre>
 
 I also write a demo to show that the time expiring eviction works, if you want to run it you can run with:
@@ -43,7 +43,7 @@ I also write a demo to show that the time expiring eviction works, if you want t
 <pre name="code" class="bash">
 javac demo.java
 
-java demo host_name_of_a_running_cachenode port_number_of_a_running_cachenode
+java demo &lt; host_name_of_a_running_cachenode &gt;  &lt; port_number_of_a_running_cachenode &gt;
 </pre>
 
 
