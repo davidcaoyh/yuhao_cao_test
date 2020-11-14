@@ -23,18 +23,29 @@ Each cache is not able to backup itself as some caches do.
 
 Compile:
 
+<pre name="code" class="bash">
 javac MiddlewareCache.java
 
 javac CacheNode.java
+</pre>
+
 
 Run:
 
-To initiate an CacheNode(cache server): java CacheNode <port_number>
+To initiate an CacheNode(cache server): 
 
-I also write a demo to show that the time expiring eviction works, if you want to run it you can run with
+<pre name="code" class="bash">
+java CacheNode <port_number>
+</pre>
 
+I also write a demo to show that the time expiring eviction works, if you want to run it you can run with:
+
+<pre name="code" class="bash">
 javac demo.java
 
 java demo <host_name_of_a_running_cachenode> <port_number_of_a_running_cachenode>
+</pre>
+
+
 
 host_name is the ip address of the running CacheNode. If running locally, the host name is "localhost".
