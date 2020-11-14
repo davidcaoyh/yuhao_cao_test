@@ -1,0 +1,7 @@
+setup.py
+vstrlib/__init__.py
+vstrlib/vstringcomp.py
+vstrlib.egg-info/PKG-INFO
+vstrlib.egg-info/SOURCES.txt
+vstrlib.egg-info/dependency_links.txt
+vstrlib.egg-info/top_level.txt
