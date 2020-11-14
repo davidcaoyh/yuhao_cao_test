@@ -12,9 +12,4 @@ public class Overlap {
         return false;
     }
 
-    public static void main(String[] args){
-        System.out.println(overlap(1,3,2,4));
-        System.out.println(overlap(1,2,3,4));
-        System.out.println(overlap(2,4,1,3));
-    }
 }

@@ -21,29 +21,7 @@ public class MiddlewareCache {
     public MiddlewareCache(){
         super();
     }
-    public static void main(String[] args) throws InterruptedException {
-        MiddlewareCache mc = new MiddlewareCache();
-        mc.addNewCacheNode("localhost",5557, 105,105);
-
-        mc.put("1", "hello world", 110,110);
-
-        Thread.currentThread().sleep(500);
-
-        String res = mc.get("1", 115,115);
-        System.out.println(res);
-
-
-        Thread.currentThread().sleep(900);
-
-        res = mc.get("1", 115,115);
-        System.out.println(res);
-
-        Thread.currentThread().sleep(1500);
-
-        res = mc.get("1", 115,115);
-        System.out.println(res);
-
-    }
+    
 
 
     /*
