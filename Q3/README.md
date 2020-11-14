@@ -20,12 +20,13 @@ data entry, it will remove itself from the linkedlist as well as from the Hashta
 Each cache is not able to backup itself as some caches do.
 
 ### Usage:
-####Compile:
+
+Compile:
 javac MiddlewareCache.java
 
 javac CacheNode.java
 
-##Run:
+Run:
 
 To initiate an CacheNode(cache server): java CacheNode <port_number>
 
